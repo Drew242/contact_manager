@@ -39,10 +39,11 @@ end
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'capybara' 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'sqlite3'
-  gem 'awesome_print' 
+  gem 'awesome_print'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
